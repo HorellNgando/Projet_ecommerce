@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#contener{
+    height: 99.9vh;
+}
+#contenu{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -3%;
+    padding: 2% 5%;
+    border-bottom: 5px solid #D9D9D9;
+}
+h2{
+    color: #1E0882;
+    text-transform: uppercase;
+    font-size: x-large;
+}
+#panier h2 , #panier p{
+    color: #6A8C9B;
+    font-size: x-large;
+    text-align: center;
+}
+#panier{
+    padding: 2% 5%;
+}

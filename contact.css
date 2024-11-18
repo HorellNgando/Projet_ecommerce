@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+#contener{
+    background-color: #999797;
+    height: 99.9vh;
+}
+#contenu{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 1240px;
+    margin-top: -3%;
+}
+#contener p{
+    font-size: medium;
+}
+#contener h3{
+    font-size: larger;
+}

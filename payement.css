@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+#contener{
+    height: 100vh;
+    background: linear-gradient(#f0932b 30%,#f8f8f8 70%);
+}
+#contenu{
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    height: 600px;
+}
+.img{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    margin-top: -7px;
+}
+#photo{
+    background: linear-gradient(to bottom left, #FBFBFB, orange);
+    width: 300px;
+    height: 500px;
+    border-radius: 5px;
+}
+#form{
+    background: linear-gradient(to bottom right, #FBFBFB, orange);
+    width: 600px;
+    height: 400px;
+    padding: 0 30px;
+    margin-top: 5%;
+    border-radius: 0 5px 5px 0;
+}
+label{
+    color: black;
+}
+button{
+    background-color: #f0932b;
+    color: white;
+    font-size: large;
+    padding: 15px;
+    border-radius: 10px;
+    width: 150px;
+    border-color: #f0932b;
+}
+.inp{
+    line-height: 30px;
+}
+.inp input{
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    border-bottom: 3px solid black;
+}
+.code{
+    margin-top: 5px;
+    line-height: 30px;
+}
+.code input{
+    height: 25px;
+    width: 75px;
+    border-radius: 5px;
+    border-bottom: 3px solid black;
+}
+.pay{
+    margin-top: 25px;
+}
+.pro{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}

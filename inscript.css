@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+#contener{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    height: 94%;
+    background-color:#F8F8F8 ;
+}
+#contenu{
+    background-color: #F8F8F8;
+    width: 80%;
+    padding: 5% 10%;
+}
+.logo{
+    width: 90px; 
+    height: 90px; 
+    border-radius: 100%;
+}
+#img{
+    height: 99.5vh;
+    width: 50%;
+}
+#ente{
+    text-align: center;
+}
+#log{
+    
+}
+#form{
+    padding: 10px 20%;
+}
+form{
+   line-height: 40px;
+}
+.inp{
+    line-height: 30px; 
+    margin-top: 20px;
+}
+.inp input{
+    border-radius: 5px;
+    height: 25px;
+    width: 220px;
+    border-color: rgb(207, 197, 197);
+}
+label{
+    color: #181818;
+    font-size: larger;
+}
+button{
+    width: 225px;
+    color: white;
+    background-color: #EA454C;
+    border-radius: 5px;
+    border-color: rgb(207, 197, 197);
+    margin-top: 20px;
+    height: 25px;
+}
